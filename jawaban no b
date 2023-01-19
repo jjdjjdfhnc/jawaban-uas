@@ -1,0 +1,12 @@
+no 6 codingan paterrn program jika di run maka akan menghasilkan bintang ke-0*****bintang ke-1*****bintang ke-2*****bintang ke-3*****bintang ke-4*****
+dengan codingan
+public class Main{
+    public static void main (String[]args){
+        for(int i = 0; i < 5; i++){
+            System.out.print("bintang ke-"+i);
+            for(int j = 0; j < 5; j++)
+            System.out.print("*");
+        }
+        System.out.print("\n");
+        }
+    }
